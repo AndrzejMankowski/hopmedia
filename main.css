@@ -1,0 +1,14 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+}
+
+
+.youtube-video {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    gap: 20px;
+}
