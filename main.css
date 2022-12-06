@@ -21,10 +21,25 @@ html {
     box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
+.main li{
+    list-style: none outside none;
+}
+
+.main li::before{
+    content:"* zupazupa";
+    color: red;
+}
+
 .youtube-video {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap:wrap;
     gap: 20px;
+}
+
+.layout {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
 }
