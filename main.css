@@ -8,6 +8,28 @@ html {
     align-items: center;
 }
 
+.film ul li {
+    list-style: none outside none;
+}
+
+.film-zwiastuny {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reportaż ul li {
+    list-style: none outside none;
+}
+
+.reklama ul li {
+    list-style: none outside none;
+}
+
+.kontakt ul li {
+    list-style: none outside none;
+}
+
 .main-nav ul {
     display: flex;
     gap: 40px;
@@ -25,11 +47,6 @@ html {
     list-style: none outside none;
 }
 
-.main li::before{
-    content:"* zupazupa";
-    color: red;
-}
-
 .youtube-video {
     display: flex;
     align-items: center;
@@ -42,4 +59,17 @@ html {
     width: 600px;
     margin: 0 auto;
     text-align: center;
+}
+
+.link-do-profilu ul li {
+    list-style: none outside none;
+}
+
+.filmpolski ul li {
+    list-style: none outside none;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    width: 100;
 }
