@@ -16,6 +16,34 @@ ul li {
   align-items: center;
 }
 
+.reportaż-opisy {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reportaż-linki {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reklama-opisy {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reklama-linki {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .main-nav ul {
   display: flex;
   gap: 40px;
@@ -45,7 +73,7 @@ ul li {
 }
 
 .layout > section {
-    padding: 20px;
+  padding: 20px;
 }
 
 .filmpolski {
