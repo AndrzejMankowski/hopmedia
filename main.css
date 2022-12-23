@@ -44,6 +44,20 @@ ul li {
   align-items: center;
 }
 
+.teledysk-opisy {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.teledysk-linki {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .main-nav ul {
   display: flex;
   gap: 40px;
