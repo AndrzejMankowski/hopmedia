@@ -16,39 +16,20 @@ ul li {
   align-items: center;
 }
 
-.reportaż-opisy {
-  display: flex;
-  gap: 40px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.reportaż-linki {
-  display: flex;
-  gap: 40px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.reklama-opisy {
-  display: flex;
-  gap: 40px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.reklama-linki {
-  display: flex;
-  gap: 40px;
-  justify-content: space-between;
-  align-items: center;
-}
-
+.reportaż-opisy,
+.reklama-opisy,
 .teledysk-opisy {
   display: flex;
-  gap: 40px;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+.reportaż,
+.reklama,
+.teledysk {
+  display: flex;
+  justify-content: space-between;
 }
 
 .teledysk-linki {
@@ -60,7 +41,6 @@ ul li {
 
 .main-nav ul {
   display: flex;
-  gap: 40px;
   justify-content: space-between;
   align-items: center;
 }
