@@ -14,18 +14,23 @@ p{
 }
 
 nav{
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
-  right: 0;
+  /* left: 0;
+  right: 0; */
+  background-color: white;
 }
 
 section{
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .shown {
   opacity: 1;
+}
+
+img:not(.kontakt img){
+  width: 100%;
 }
 
 ul {
@@ -45,11 +50,13 @@ ul li {
 
 .reportaż-opisy,
 .reklama-opisy,
-.teledysk-opisy {
+.teledysk-opisy,
+.film-opisy {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
+  width: 40%;
 }
 
 .reportaż,
@@ -110,7 +117,8 @@ ul li {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
   width: 200px;
   display: block;
-  margin: 20px auto;
+  margin: 20px 0 25px;
+  text-align: center;
 }
 
 
