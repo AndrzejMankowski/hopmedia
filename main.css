@@ -67,13 +67,6 @@ ul li {
   justify-content: space-between;
 }
 
-.teledysk-linki {
-  display: flex;
-  gap: 40px;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .main-nav {
   width: 650px;
   display: block;
