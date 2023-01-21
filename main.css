@@ -17,8 +17,6 @@ p {
 nav {
   position: sticky;
   top: 0;
-  /* left: 0;
-  right: 0; */
   background-color: white;
   box-shadow: 0 10px 10px white;
 }
@@ -49,7 +47,6 @@ ul li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* align-items: center; */
   width: 40%;
 }
 
@@ -88,7 +85,7 @@ ul li {
 
 .layout {
   width: 757px;
-  margin: 0 250px;
+  margin: 0 auto;
 }
 
 .layout > section {
@@ -107,7 +104,22 @@ ul li {
 }
 
 .last-logos {
-  justify-content: space-between;
-  gap: 100px;
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
 }
 
+section[id] {
+  min-height: 100vh;
+  padding-top: 50px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+section[id]:target {
+  opacity: 1;
+}
