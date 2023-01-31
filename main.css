@@ -19,10 +19,21 @@ nav {
   top: 0;
   background-color: white;
   box-shadow: 0 10px 10px white;
+  z-index: 1;
 }
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
 
 img:not(.kontakt img, .last-logos img) {
   width: 100%;
+}
+
+img {
+  vertical-align: bottom;
 }
 
 ul {
@@ -38,6 +49,16 @@ ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+a:has(img),
+.with-shadow {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr auto;
 }
 
 .reportaż-opisy,
@@ -99,8 +120,10 @@ ul li {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
   width: 200px;
   display: block;
-  margin: 20 px 0 25px;
+  margin: 20px 0 25px;
   text-align: center;
+  text-decoration: none;
+  color: black;
 }
 
 .last-logos {
@@ -122,4 +145,37 @@ section[id] {
 
 section[id]:target {
   opacity: 1;
+}
+
+@media (max-width:757px){
+  .layout{
+    width: auto;
+  }
+  .main-nav {
+    width: auto;
+    position: fixed;
+  }
+  .columns {
+    grid-template-columns: 1fr;
+  }
+  .main-nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+  }
+  section[id] {
+    min-height: 100vh;
+    padding-top: 150px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .about li {
+    display: inline;
+  }
 }
