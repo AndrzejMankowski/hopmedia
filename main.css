@@ -16,7 +16,7 @@ p {
 
 nav {
   position: sticky;
-  top: 0;
+  top: 5px;
   background-color: white;
   box-shadow: 0 10px 10px white;
   z-index: 1;
